@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sncr_imoveis-mcp",
+  "title": "SNCR: Consulta Pública de Imóveis",
+  "description": "SNCR: Lookup Pública de Imóveis, official-source lookup. Platform-hosted, pay per query with prepaid",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sncr_imoveis-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sncr_imoveis"
+    }
+  ]
+}
